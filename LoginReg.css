@@ -1,7 +1,7 @@
 .main__container {
   position: absolute;
   width: 85vw;
-  height: 85vh;
+  height: 80vh;
   top: 7.5vh;
   left: 7.5vw;
   opacity: 1;
@@ -15,12 +15,12 @@
   top: 7.5vh;
   left: 7.5vw;
   opacity: 0.6;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 .square {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 90;
   width: 20vw;
   height: 20vh;
   background-color: #fe6d73;
