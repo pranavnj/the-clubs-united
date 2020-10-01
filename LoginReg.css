@@ -1,0 +1,241 @@
+.main__container {
+  position: absolute;
+  width: 85vw;
+  height: 85vh;
+  top: 7.5vh;
+  left: 7.5vw;
+  opacity: 1;
+  border-radius: 20px;
+}
+.dummy__container {
+  background-color: #2c3a47;
+  position: absolute;
+  width: 85vw;
+  height: 85vh;
+  top: 7.5vh;
+  left: 7.5vw;
+  opacity: 0.6;
+  border-radius: 20px;
+}
+.square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  height: 20vh;
+  background-color: #fe6d73;
+  border-radius: 0px 0px 50px 0px;
+}
+.circle {
+  position: absolute;
+  bottom: -20vh;
+  left: -20vh;
+  width: 50vh;
+  height: 50vh;
+  background-color: #ffcb77;
+  border-radius: 50%;
+}
+.logincont {
+  width: 100vw;
+  height: 100vh;
+}
+
+.star {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  width: 60vh;
+  height: 60vh;
+  background-color: #17c3b2;
+  position: absolute;
+  right: -20vh;
+  bottom: -25vh;
+  z-index: -1;
+}
+.triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  background-color: #227c9d;
+  right: -10vh;
+  top: -30vh;
+  z-index: -1;
+}
+.left__form {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+
+.toggle__btns {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: #17c3b2;
+  background-color: transparent;
+  outline: none;
+}
+.toggle__btns:hover {
+  background-color: #17c3b2;
+  color: #4f4f4f;
+}
+.inps {
+  margin-top: -50px;
+  width: 250px;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.form__inputs > input {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #17c3b2;
+  outline: none;
+}
+.form__inputs {
+  background-color: #4f4f4f;
+
+  border-bottom: 2px solid #17c3b2;
+}
+.form__inputs:hover {
+  border: 2px solid #17c3b2;
+  border-radius: 5px;
+}
+.login__btn {
+  padding: 10px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #17c3b2;
+  color: #fff;
+  outline: none;
+}
+.login__btn:hover {
+  border: 2px solid #fff;
+}
+.right__form {
+  margin-right: -50%;
+
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+.form__container {
+  height: 70vh;
+  border-left: 2px solid #17c3b2;
+  display: flex;
+  width: 50vw;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+
+.left__form__to__left {
+  margin-left: -150%;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+.right__form__left {
+  margin-right: 0%;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+.logo {
+  position: absolute;
+  top: 50vh;
+  left: 55vw;
+  display: flex;
+  width: 40vw;
+  height: 30vh;
+
+  overflow: visible;
+}
+.logo > span > h1 {
+  font-size: 10vh;
+  overflow: visible;
+}
+.logo > span {
+  overflow: visible;
+}
+.logo > div {
+  position: relative;
+  top: 10vh;
+  right: 10vh;
+  overflow: visible;
+}
+.logo > div > h1 {
+  font-size: 5vh;
+  overflow: visible;
+}
+.three {
+  color: #fe6d73;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.id {
+  color: #ffcb77;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.iots {
+  color: #17c3b2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.club {
+  color: #227c9d;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.char__container {
+  width: 50%;
+  position: absolute;
+  top: 25vh;
+
+  height: 60vh;
+}
+.char__container > svg {
+  width: 33.3%;
+  height: 33.3%;
+}
+
