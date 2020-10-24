@@ -9,18 +9,18 @@ import { Thecheckercmp } from './components/TheCheckercmp';
 
 function App() {
   return (
-    <Router>
-    <div className="app">
     
+    <div className="app">
+    <Router>
       <Switch>
      
       <Route exact path="/:username" component={Userclub}/>
             
       <Route exact path="/" component={Thecheckercmp}/>
       </Switch>
-     
+     </Router>
     </div>
-    </Router>
+    
   );
 }
 
