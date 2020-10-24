@@ -26,7 +26,7 @@ const authtoken=localStorage.getItem('authToken');
     })
 }else{
     
-    window.location="/"
+    window.location="/woah__great"
 
 }
 });
