@@ -1,5 +1,5 @@
 .main__container {
-  position: absolute;
+  position: relative;
   width: 85vw;
   height: 80vh;
   top: 7.5vh;
